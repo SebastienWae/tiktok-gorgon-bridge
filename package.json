@@ -1,0 +1,25 @@
+{
+  "name": "tiktok-gorgon-bridge",
+  "version": "1.0.0",
+  "description": "Express server with a Frida bridge to sign TikTok API requests",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "frida-compile": "^9.0.8",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastienWae/tiktok-gorgon-bridge.git"
+  },
+  "author": "Sebastien Waegeneire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastienWae/tiktok-gorgon-bridge/issues"
+  },
+  "homepage": "https://github.com/SebastienWae/tiktok-gorgon-bridge#readme"
+}
