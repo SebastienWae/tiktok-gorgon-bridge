@@ -9,7 +9,7 @@ Express server with a Frida bridge to sign TikTok API requests
 ### Setup
 ```shell
 npm install
-frida compile -O compiled.js server.js
+frida-compile -O compiled.js server.js
 ```
 For Frida server:
 ```shell
