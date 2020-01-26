@@ -25,7 +25,7 @@ app.post('/', function (req, res) {
                 }
             }
 
-            const funSign = Java.use("com.bytedance.frameworks.baselib.network.http.NetworkParams")["b"](url, headersMap)
+            const funSign = Java.use("com.bytedance.frameworks.baselib.network.http.f")["b"](url, headersMap)
             const retVal = Java.cast(funSign, Java.use("java.util.HashMap")).toString()
 
             if (retVal.length > 0) {
