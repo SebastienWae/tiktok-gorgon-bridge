@@ -13,7 +13,7 @@ frida-compile -O compiled.js server.js
 ```
 For Frida server:
 ```shell
-frida -U com.zhiliaoapp.musically -l compiled.js
+frida -U com.zhiliaoapp.musically -l compiled.js --runtime=v8
 ```
 For Frida inject:
 ```shell
